@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Tu comentario -->
+    <item
+        android:id="@+id/Salir"
+        android:title="@string/salir"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_dos"
+        android:title="@string/menu_dos"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/show_cursos"
+        android:title="@string/show"
+        android:icon="@drawable/ic_show"
+        app:showAsAction="ifRoom"/>
+
+</menu>

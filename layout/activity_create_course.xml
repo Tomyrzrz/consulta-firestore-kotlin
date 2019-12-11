@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoverde"
+    tools:context=".CreateCourse">
+
+    <TextView
+        android:id="@+id/txt_title_createc"
+        style="@style/TextTitles"
+        android:text="@string/txt_title_createc"
+        />
+
+    <TextView
+        android:id="@+id/txt_teacher_cc"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:text="@string/txt_teacher_cc"
+        />
+    <Spinner
+        android:id="@+id/spn_teachers_cc"
+        style="@style/ListStyles"
+        />
+
+    <TextView
+        android:id="@+id/txt_subject_cc"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:text="@string/txt_subject_cc"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:id="@+id/chb_english"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progra"
+            android:id="@+id/chb_progra"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modeling"
+            android:id="@+id/chb_modeling"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admon"
+            android:id="@+id/chb_admon"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Networks"
+            android:id="@+id/chb_network"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BDs"
+            android:id="@+id/chb_bds"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expression"
+            android:id="@+id/chb_expression"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design"
+            android:id="@+id/chb_design"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_group_cc"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:text="@string/txt_group_cc"
+        />
+
+    <Spinner
+        android:id="@+id/spn_groups_cc"
+        style="@style/ListStyles"
+        />
+
+    <TextView
+        android:id="@+id/txt_carrer_cc"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:text="@string/txt_carrer_cc"
+        />
+
+    <Spinner
+        android:id="@+id/spn_carrers_cc"
+        style="@style/ListStyles"
+        />
+
+    <EditText
+        style="@style/EditTextStyle"
+        android:id="@+id/edt_name_course"
+        android:hint="Name of course"/>
+
+    <Button
+        android:id="@+id/btn_create_course"
+        style="@style/ButtonStyle"
+        android:text="@string/btn_createc"/>
+
+</LinearLayout>
